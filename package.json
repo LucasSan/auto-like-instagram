@@ -1,0 +1,34 @@
+{
+  "name": "auto-like-instagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasSan/auto-like-instagram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasSan/auto-like-instagram/issues"
+  },
+  "homepage": "https://github.com/LucasSan/auto-like-instagram#readme",
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "nodemon": "^1.17.1",
+    "standard": "^11.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "instagram-api": "^1.0.3",
+    "request": "^2.83.0"
+  }
+}
